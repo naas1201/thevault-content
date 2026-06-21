@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ev-frances-four-billion-euro-media-shell-game-1",
+    "type": "document",
+    "title": "TODO: Primary source document",
+    "description": "Official report, filing, or court record cited in: France's four billion euro media shell game",
+    "url": "https://REPLACE_WITH_PRIMARY_SOURCE_URL",
+    "source": "TODO: Publisher / agency name",
+    "date": "2026-06-11",
+    "tags": [
+      "primary-source",
+      "todo"
+    ]
+  },
+  {
+    "id": "ev-frances-four-billion-euro-media-shell-game-2",
+    "type": "link",
+    "title": "TODO: Reference article or database",
+    "description": "Background context, regulator page, or investigative report",
+    "url": "https://REPLACE_WITH_REFERENCE_URL",
+    "source": "TODO",
+    "tags": [
+      "reference",
+      "todo"
+    ]
+  },
+  {
+    "id": "ev-frances-four-billion-euro-media-shell-game-3",
+    "type": "image",
+    "title": "TODO: Chart, timeline, or diagram",
+    "description": "Visual used in the episode or supporting your key finding",
+    "url": "https://REPLACE_WITH_IMAGE_URL",
+    "thumbnail": "https://REPLACE_WITH_THUMBNAIL_URL",
+    "tags": [
+      "analysis",
+      "todo"
+    ]
+  },
+  {
+    "id": "ev-frances-four-billion-euro-media-shell-game-4",
+    "type": "link",
+    "title": "TODO: On-air source or press coverage",
+    "description": "News item, press release, or transcript referenced on-air",
+    "url": "https://REPLACE_WITH_PRESS_URL",
+    "source": "TODO",
+    "tags": [
+      "press",
+      "todo"
+    ]
+  }
+]

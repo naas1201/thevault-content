@@ -7,6 +7,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { fetchRss, parseRss, toIsoDate } from "./lib/rss.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -26,42 +27,6 @@ function loadConfig() {
   return { ...defaults, ...readJson(configPath) };
 }
 
-function extractTag(block, tag) {
-  const cdata = new RegExp(`<${tag}><!\\[CDATA\\[([\\s\\S]*?)\\]\\]></${tag}>`, "i");
-  const cdataMatch = block.match(cdata);
-  if (cdataMatch) return cdataMatch[1].trim();
-
-  const plain = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, "i");
-  const plainMatch = block.match(plain);
-  return plainMatch ? plainMatch[1].trim() : "";
-}
-
-function parseRss(xml) {
-  const items = [];
-  const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
-  let match;
-  while ((match = itemRegex.exec(xml)) !== null) {
-    const block = match[1];
-    const guid = extractTag(block, "guid");
-    const title = extractTag(block, "title");
-    const pubDate = extractTag(block, "pubDate");
-    items.push({
-      number: items.length + 1,
-      guid,
-      title,
-      pubDate,
-    });
-  }
-  return items;
-}
-
-function toIsoDate(pubDate) {
-  if (!pubDate) return "";
-  const d = new Date(pubDate);
-  if (Number.isNaN(d.getTime())) return "";
-  return d.toISOString().slice(0, 10);
-}
-
 function listContentFolders(contentDir) {
   if (!fs.existsSync(contentDir)) return [];
   return fs
@@ -75,12 +40,6 @@ function parseFolderName(name) {
   const m = name.match(/^(\d{1,3})-([a-z0-9][a-z0-9-]*)$/);
   if (!m) return null;
   return { episode: parseInt(m[1], 10), slug: m[2] };
-}
-
-async function fetchRss(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`RSS fetch failed: ${res.status} ${url}`);
-  return res.text();
 }
 
 function buildDossier({ slug, articleBody, evidence, meta, rssEpisode }) {

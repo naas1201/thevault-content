@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Scaffold missing episode folders from RSS
+        run: node scripts/scaffold-from-rss.mjs
+
       - name: Build manifest + dossiers from content/
         run: node scripts/build.mjs
 

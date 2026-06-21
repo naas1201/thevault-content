@@ -1,12 +1,25 @@
+<!-- dossier-scaffold: replace TODO sections, then set "draft": false in meta.json -->
+
 ## Executive summary
 
-Write your investigation article here in markdown.
+TODO: One-paragraph overview.
+
+## What we investigated
+
+- TODO: Core question
+- TODO: Institution or company under scrutiny
+- TODO: Records or testimony examined
 
 ## Key findings
 
-1. **First finding.** Supporting detail.
-2. **Second finding.** Supporting detail.
+1. **TODO.** Supporting detail.
+2. **TODO.** Supporting detail.
+3. **TODO.** Supporting detail.
+
+## Why this matters
+
+TODO: Stakes for the listener.
 
 ## Method note
 
-How sources were verified.
+Replace placeholder URLs in `evidence.json`, then set `"draft": false` in `meta.json`.

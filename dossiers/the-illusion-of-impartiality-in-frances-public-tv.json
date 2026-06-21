@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "slug": "the-illusion-of-impartiality-in-frances-public-tv",
+  "title": "The Illusion of Impartiality in France's Public TV",
+  "subtitle": "They tell you it’s an impartial public service, a beacon of truth.",
+  "publishedAt": "2026-05-22",
+  "article": {
+    "format": "markdown",
+    "body": "<!-- dossier-scaffold: replace TODO sections, then set \"draft\": false in meta.json -->\r\n\r\n## Executive summary\r\n\r\nTODO: One-paragraph overview of **The Illusion of Impartiality in France's Public TV**.\r\n\r\n## What we investigated\r\n\r\n- TODO: Core question this episode answers\r\n- TODO: Institution, company, or policy under scrutiny\r\n- TODO: What public records or testimony were examined\r\n\r\n## Key findings\r\n\r\n1. **TODO.** Supporting detail with a specific fact or figure.\r\n2. **TODO.** Supporting detail — who benefited, who paid the cost.\r\n3. **TODO.** Supporting detail — what regulators or courts did (or failed to do).\r\n\r\n## Why this matters\r\n\r\nTODO: Why the listener should care beyond the headline.\r\n\r\n## Method note\r\n\r\nThis dossier accompanies **EP. 05** (*The Illusion of Impartiality in France's Public TV*). Replace every placeholder URL in `evidence.json` before setting `\"draft\": false` in `meta.json`.\r\n\r\n---\r\n\r\n### Episode brief (from Spotify RSS — delete this section when done)\r\n\r\nThey tell you it’s an impartial public service, a beacon of truth. But when you exhume the broadcast logs, you find a subsidized echo chamber where the executives themselves admit: “neutrality is a mirage.”\r\nIn The Illusion of Impartiality, we apply classic forensic documentary rigor to France’s public broadcasting system. Using stark on-screen text and direct juxtaposition of legal statutes against actual transcripts, we expose how €4 billion in taxpayer money is weaponized to foreclose democratic debate.\r\nWe reveal how the youth platform France.tv Slash — funded entirely by the public — actively promotes militant causes to audiences as young as 15, including the consumption of hallucinogenic mushrooms and transgender pornography.\r\nWe apply the “What You See Is All There Is” test to prove chronic ideological capture: left-wing political figures are vastly overrepresented while dissenting voices are systematically excluded. Regulators look the other way.\r\nFinally, we demand to see the hidden formula behind journalists’ so-called “expert intuition” — the convenient excuse used to treat public airwaves as their private ideological property.\r\nThis is not conspiracy. This is the documented"
+  },
+  "evidence": [
+    {
+      "id": "ev-the-illusion-of-impartiality-in-frances-public-tv-1",
+      "type": "document",
+      "title": "TODO: Primary source document",
+      "description": "Official report, filing, or court record cited in: The Illusion of Impartiality in France's Public TV",
+      "url": "https://REPLACE_WITH_PRIMARY_SOURCE_URL",
+      "source": "TODO: Publisher / agency name",
+      "date": "2026-05-22",
+      "tags": [
+        "primary-source",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-illusion-of-impartiality-in-frances-public-tv-2",
+      "type": "link",
+      "title": "TODO: Reference article or database",
+      "description": "Background context, regulator page, or investigative report",
+      "url": "https://REPLACE_WITH_REFERENCE_URL",
+      "source": "TODO",
+      "tags": [
+        "reference",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-illusion-of-impartiality-in-frances-public-tv-3",
+      "type": "image",
+      "title": "TODO: Chart, timeline, or diagram",
+      "description": "Visual used in the episode or supporting your key finding",
+      "url": "https://REPLACE_WITH_IMAGE_URL",
+      "thumbnail": "https://REPLACE_WITH_THUMBNAIL_URL",
+      "tags": [
+        "analysis",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-illusion-of-impartiality-in-frances-public-tv-4",
+      "type": "link",
+      "title": "TODO: On-air source or press coverage",
+      "description": "News item, press release, or transcript referenced on-air",
+      "url": "https://REPLACE_WITH_PRESS_URL",
+      "source": "TODO",
+      "tags": [
+        "press",
+        "todo"
+      ]
+    }
+  ]
+}

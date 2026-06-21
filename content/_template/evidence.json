@@ -1,12 +1,38 @@
 [
   {
-    "id": "ev-1",
+    "id": "ev-SLUG-1",
+    "type": "document",
+    "title": "TODO: Primary source document",
+    "description": "Official report, filing, or court record",
+    "url": "https://REPLACE_WITH_PRIMARY_SOURCE_URL",
+    "source": "TODO: Publisher name",
+    "date": "YYYY-MM-DD",
+    "tags": ["primary-source", "todo"]
+  },
+  {
+    "id": "ev-SLUG-2",
     "type": "link",
-    "title": "Primary source title",
-    "description": "Why this source matters",
-    "url": "https://example.org/source",
-    "source": "Publisher name",
-    "date": "2026-01-01",
-    "tags": ["primary-source"]
+    "title": "TODO: Reference article or database",
+    "description": "Background context or regulator page",
+    "url": "https://REPLACE_WITH_REFERENCE_URL",
+    "source": "TODO",
+    "tags": ["reference", "todo"]
+  },
+  {
+    "id": "ev-SLUG-3",
+    "type": "image",
+    "title": "TODO: Chart or diagram",
+    "description": "Visual supporting a key finding",
+    "url": "https://REPLACE_WITH_IMAGE_URL",
+    "tags": ["analysis", "todo"]
+  },
+  {
+    "id": "ev-SLUG-4",
+    "type": "link",
+    "title": "TODO: Press coverage or on-air source",
+    "description": "News item referenced in the episode",
+    "url": "https://REPLACE_WITH_PRESS_URL",
+    "source": "TODO",
+    "tags": ["press", "todo"]
   }
 ]

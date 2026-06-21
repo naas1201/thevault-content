@@ -1,6 +1,6 @@
 {
-  "title": "Optional — defaults to RSS episode title",
-  "subtitle": "One-line hook (optional)",
-  "publishedAt": "2026-06-21",
-  "draft": false
+  "title": "Episode title (defaults from RSS if omitted)",
+  "subtitle": "One-line hook",
+  "publishedAt": "YYYY-MM-DD",
+  "draft": true
 }

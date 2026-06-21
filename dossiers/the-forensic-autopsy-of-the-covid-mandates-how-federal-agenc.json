@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "slug": "the-forensic-autopsy-of-the-covid-mandates-how-federal-agenc",
+  "title": "The Forensic Autopsy of the COVID Mandates: How Federal Agencies Silenced the Doctors Who Saw the Data",
+  "subtitle": "The public was told there was a pristine scientific consensus.",
+  "publishedAt": "2026-04-22",
+  "article": {
+    "format": "markdown",
+    "body": "<!-- dossier-scaffold: replace TODO sections, then set \"draft\": false in meta.json -->\r\n\r\n## Executive summary\r\n\r\nTODO: One-paragraph overview of **The Forensic Autopsy of the COVID Mandates: How Federal Agencies Silenced the Doctors Who Saw the Data**.\r\n\r\n## What we investigated\r\n\r\n- TODO: Core question this episode answers\r\n- TODO: Institution, company, or policy under scrutiny\r\n- TODO: What public records or testimony were examined\r\n\r\n## Key findings\r\n\r\n1. **TODO.** Supporting detail with a specific fact or figure.\r\n2. **TODO.** Supporting detail — who benefited, who paid the cost.\r\n3. **TODO.** Supporting detail — what regulators or courts did (or failed to do).\r\n\r\n## Why this matters\r\n\r\nTODO: Why the listener should care beyond the headline.\r\n\r\n## Method note\r\n\r\nThis dossier accompanies **EP. 10** (*The Forensic Autopsy of the COVID Mandates: How Federal Agencies Silenced the Doctors Who Saw the Data*). Replace every placeholder URL in `evidence.json` before setting `\"draft\": false` in `meta.json`.\r\n\r\n---\r\n\r\n### Episode brief (from Spotify RSS — delete this section when done)\r\n\r\nThe public was told there was a pristine scientific consensus. Behind the closed doors of federal agencies, a different mechanical reality was operating.\r\nIn this forensic videocast, we conduct an institutional autopsy of the mandate era. We move beyond the political narrative to examine the specific logistical and administrative machinery used to enforce a nationwide medical policy.\r\nWe analyze how clinical autonomy was replaced by administrative force, tracking the internal actions of health agencies, medical boards, and federal advisors.\r\nIn this deep dive, we cover:\r\nThe Purge of Physicians: How the FSMB and State Medical Boards targeted doctors like Dr. Paul Thomas and Dr. Pierre Kory for reporting clinical safety signals.\r\nThe FDA's Engineered Timeline: The abrupt resignation of top vaccine experts Dr. Marion Gruber and Dr. Philip Kraus, and how the FDA accelerated the Biologics License Application (BLA) to meet Department of Defense mandate deadlines.\r\nThe FOIA Evasion Network: Evidence of Dr. David Morens using private emails and encrypted ProtonMail to hide communications from the public record, violating federal record laws.\r\nThe Biological Reality: The pharmacokinetics of Lipid"
+  },
+  "evidence": [
+    {
+      "id": "ev-the-forensic-autopsy-of-the-covid-mandates-how-federal-agenc-1",
+      "type": "document",
+      "title": "TODO: Primary source document",
+      "description": "Official report, filing, or court record cited in: The Forensic Autopsy of the COVID Mandates: How Federal Agencies Silenced the Doctors Who Saw the Data",
+      "url": "https://REPLACE_WITH_PRIMARY_SOURCE_URL",
+      "source": "TODO: Publisher / agency name",
+      "date": "2026-04-22",
+      "tags": [
+        "primary-source",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-forensic-autopsy-of-the-covid-mandates-how-federal-agenc-2",
+      "type": "link",
+      "title": "TODO: Reference article or database",
+      "description": "Background context, regulator page, or investigative report",
+      "url": "https://REPLACE_WITH_REFERENCE_URL",
+      "source": "TODO",
+      "tags": [
+        "reference",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-forensic-autopsy-of-the-covid-mandates-how-federal-agenc-3",
+      "type": "image",
+      "title": "TODO: Chart, timeline, or diagram",
+      "description": "Visual used in the episode or supporting your key finding",
+      "url": "https://REPLACE_WITH_IMAGE_URL",
+      "thumbnail": "https://REPLACE_WITH_THUMBNAIL_URL",
+      "tags": [
+        "analysis",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-forensic-autopsy-of-the-covid-mandates-how-federal-agenc-4",
+      "type": "link",
+      "title": "TODO: On-air source or press coverage",
+      "description": "News item, press release, or transcript referenced on-air",
+      "url": "https://REPLACE_WITH_PRESS_URL",
+      "source": "TODO",
+      "tags": [
+        "press",
+        "todo"
+      ]
+    }
+  ]
+}

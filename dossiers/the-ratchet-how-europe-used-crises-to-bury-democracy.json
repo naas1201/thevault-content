@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "slug": "the-ratchet-how-europe-used-crises-to-bury-democracy",
+  "title": "The Ratchet: How Europe Used Crises to Bury Democracy",
+  "subtitle": "While headlines focused on COVID case counts, terror attacks, and migration waves, a quiet operation was underway.",
+  "publishedAt": "2026-03-28",
+  "article": {
+    "format": "markdown",
+    "body": "<!-- dossier-scaffold: replace TODO sections, then set \"draft\": false in meta.json -->\r\n\r\n## Executive summary\r\n\r\nTODO: One-paragraph overview of **The Ratchet: How Europe Used Crises to Bury Democracy**.\r\n\r\n## What we investigated\r\n\r\n- TODO: Core question this episode answers\r\n- TODO: Institution, company, or policy under scrutiny\r\n- TODO: What public records or testimony were examined\r\n\r\n## Key findings\r\n\r\n1. **TODO.** Supporting detail with a specific fact or figure.\r\n2. **TODO.** Supporting detail — who benefited, who paid the cost.\r\n3. **TODO.** Supporting detail — what regulators or courts did (or failed to do).\r\n\r\n## Why this matters\r\n\r\nTODO: Why the listener should care beyond the headline.\r\n\r\n## Method note\r\n\r\nThis dossier accompanies **EP. 15** (*The Ratchet: How Europe Used Crises to Bury Democracy*). Replace every placeholder URL in `evidence.json` before setting `\"draft\": false` in `meta.json`.\r\n\r\n---\r\n\r\n### Episode brief (from Spotify RSS — delete this section when done)\r\n\r\nWhile headlines focused on COVID case counts, terror attacks, and migration waves, a quiet operation was underway. Governments across Europe used crises as a smokescreen to make emergency powers permanent. This is not a legal history. It is a true-crime autopsy of the \"ratchet effect\"—the mechanism by which power, once expanded, never contracts back.\r\nThe Three Smoking Guns\r\n1. Hungary: The Enabling Act That Never Expired\r\nMarch 2020. Hungary passed Act XII, granting Viktor Orbán the power to rule by decree. Most countries included sunset clauses. Hungary did not. No expiration date. No automatic repeal. The law remains on the books today, allowing Orbán to bypass parliament indefinitely. The EU's Article 7 proceedings—designed to strip member states of voting rights for violating EU values—remain stuck in bureaucratic limbo six years later. The ratchet clicked.\r\n2. France: SILT Law – When Emergency Became Ordinary\r\nNovember 2015. Terror attacks. France declared a state of emergency. It was extended five times, lasting two years. In 2017, rather than let it expire, the Macron government passed the SILT law (Loi renforçant la sécurité intérieure et la lutte contre le terrorisme). It took"
+  },
+  "evidence": [
+    {
+      "id": "ev-the-ratchet-how-europe-used-crises-to-bury-democracy-1",
+      "type": "document",
+      "title": "TODO: Primary source document",
+      "description": "Official report, filing, or court record cited in: The Ratchet: How Europe Used Crises to Bury Democracy",
+      "url": "https://REPLACE_WITH_PRIMARY_SOURCE_URL",
+      "source": "TODO: Publisher / agency name",
+      "date": "2026-03-28",
+      "tags": [
+        "primary-source",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-ratchet-how-europe-used-crises-to-bury-democracy-2",
+      "type": "link",
+      "title": "TODO: Reference article or database",
+      "description": "Background context, regulator page, or investigative report",
+      "url": "https://REPLACE_WITH_REFERENCE_URL",
+      "source": "TODO",
+      "tags": [
+        "reference",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-ratchet-how-europe-used-crises-to-bury-democracy-3",
+      "type": "image",
+      "title": "TODO: Chart, timeline, or diagram",
+      "description": "Visual used in the episode or supporting your key finding",
+      "url": "https://REPLACE_WITH_IMAGE_URL",
+      "thumbnail": "https://REPLACE_WITH_THUMBNAIL_URL",
+      "tags": [
+        "analysis",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-ratchet-how-europe-used-crises-to-bury-democracy-4",
+      "type": "link",
+      "title": "TODO: On-air source or press coverage",
+      "description": "News item, press release, or transcript referenced on-air",
+      "url": "https://REPLACE_WITH_PRESS_URL",
+      "source": "TODO",
+      "tags": [
+        "press",
+        "todo"
+      ]
+    }
+  ]
+}

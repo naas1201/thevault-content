@@ -41,11 +41,29 @@ Example: `content/11-visa-mafia/`
 
 Match the **EP. XX** pill in the app (newest published episode = 1). The build script prints GUID mappings when it runs.
 
+### Scaffold all episodes from RSS
+
+Every Spotify/Anchor episode gets a pre-filled folder (article + evidence templates):
+
+```powershell
+node scripts/scaffold-from-rss.mjs
+```
+
+Skips folders that already exist. Regenerates `content/EPISODES.md` index. Runs automatically in CI before build.
+
 ### Local build (optional)
 
 ```powershell
+node scripts/scaffold-from-rss.mjs
 node scripts/build.mjs
 ```
+
+### Publish one episode
+
+1. Edit `content/12-trip-com-exposed/...` (see `EPISODES.md` for folder names)
+2. Replace `TODO` in `article.md` and URLs in `evidence.json`
+3. Set `"draft": false` in `meta.json`
+4. `git push` — only the 3 live dossiers show badges until you flip draft off
 
 ---
 

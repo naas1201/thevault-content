@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "slug": "the-architecture-of-evasion-auditing-agodas-legal-and-financ",
+  "title": "The Architecture of Evasion: Auditing Agoda’s Legal and Financial Loopholes",
+  "subtitle": "🚨 Welcome to The Vault Unlocked.",
+  "publishedAt": "2026-03-25",
+  "article": {
+    "format": "markdown",
+    "body": "<!-- dossier-scaffold: replace TODO sections, then set \"draft\": false in meta.json -->\r\n\r\n## Executive summary\r\n\r\nTODO: One-paragraph overview of **The Architecture of Evasion: Auditing Agoda’s Legal and Financial Loopholes**.\r\n\r\n## What we investigated\r\n\r\n- TODO: Core question this episode answers\r\n- TODO: Institution, company, or policy under scrutiny\r\n- TODO: What public records or testimony were examined\r\n\r\n## Key findings\r\n\r\n1. **TODO.** Supporting detail with a specific fact or figure.\r\n2. **TODO.** Supporting detail — who benefited, who paid the cost.\r\n3. **TODO.** Supporting detail — what regulators or courts did (or failed to do).\r\n\r\n## Why this matters\r\n\r\nTODO: Why the listener should care beyond the headline.\r\n\r\n## Method note\r\n\r\nThis dossier accompanies **EP. 17** (*The Architecture of Evasion: Auditing Agoda’s Legal and Financial Loopholes*). Replace every placeholder URL in `evidence.json` before setting `\"draft\": false` in `meta.json`.\r\n\r\n---\r\n\r\n### Episode brief (from Spotify RSS — delete this section when done)\r\n\r\n🚨 Welcome to The Vault Unlocked. 🚨What happens when a multi-billion-dollar travel giant decides that consumer protection laws don't apply to them?In this explosive investigation, we pull back the curtain on Agoda—a company that markets itself as a \"world leader in travel\" but legally operates in the shadows. Through leaked documents, falsified bank transcripts, and a deep-dive legal audit, we expose the shocking architecture of evasion designed to trap consumers, deny refunds, and bypass European laws.We brought the receipts. Now it's time to unlock the truth.🔍 IN THIS EPISODE, WE EXPOSE: • The Identity Trap: How Agoda lures you in as a \"Travel Agency\" but legally morphs into a mere \"intermediary\" to dodge all responsibility when you are left stranded at closed or dangerous hotels. • Falsified Evidence: Hard proof that Agoda manipulated audio transcripts submitted to banks (like N26) to fraudulently win chargeback disputes against their own customers. • The AgodaCash Scheme: Why their \"cashback\" and loyalty programs are actually unregulated financial products operating with arbitrary rules, designed to trap your money in their ecosystem. • The Jurisdiction Loophole: How Agoda ac"
+  },
+  "evidence": [
+    {
+      "id": "ev-the-architecture-of-evasion-auditing-agodas-legal-and-financ-1",
+      "type": "document",
+      "title": "TODO: Primary source document",
+      "description": "Official report, filing, or court record cited in: The Architecture of Evasion: Auditing Agoda’s Legal and Financial Loopholes",
+      "url": "https://REPLACE_WITH_PRIMARY_SOURCE_URL",
+      "source": "TODO: Publisher / agency name",
+      "date": "2026-03-25",
+      "tags": [
+        "primary-source",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-architecture-of-evasion-auditing-agodas-legal-and-financ-2",
+      "type": "link",
+      "title": "TODO: Reference article or database",
+      "description": "Background context, regulator page, or investigative report",
+      "url": "https://REPLACE_WITH_REFERENCE_URL",
+      "source": "TODO",
+      "tags": [
+        "reference",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-architecture-of-evasion-auditing-agodas-legal-and-financ-3",
+      "type": "image",
+      "title": "TODO: Chart, timeline, or diagram",
+      "description": "Visual used in the episode or supporting your key finding",
+      "url": "https://REPLACE_WITH_IMAGE_URL",
+      "thumbnail": "https://REPLACE_WITH_THUMBNAIL_URL",
+      "tags": [
+        "analysis",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-architecture-of-evasion-auditing-agodas-legal-and-financ-4",
+      "type": "link",
+      "title": "TODO: On-air source or press coverage",
+      "description": "News item, press release, or transcript referenced on-air",
+      "url": "https://REPLACE_WITH_PRESS_URL",
+      "source": "TODO",
+      "tags": [
+        "press",
+        "todo"
+      ]
+    }
+  ]
+}

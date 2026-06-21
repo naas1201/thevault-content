@@ -1,8 +1,16 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T15:55:00.242Z",
+  "updatedAt": "2026-06-21T16:02:00.170Z",
   "contentBaseUrl": "https://naas1201.github.io/thevault-content/dossiers/",
   "episodes": {
+    "ep:1": {
+      "slug": "frances-four-billion-euro-media-shell-game",
+      "hasDossier": false
+    },
+    "b493574f-c0d6-47ea-8353-b3a743043f0b": {
+      "slug": "frances-four-billion-euro-media-shell-game",
+      "hasDossier": false
+    },
     "ep:2": {
       "slug": "french-public-neutrality",
       "hasDossier": true
@@ -19,6 +27,62 @@
       "slug": "host-producer-grift",
       "hasDossier": true
     },
+    "ep:4": {
+      "slug": "the-global-protein-heist-how-wall-street-architects-engineer",
+      "hasDossier": false
+    },
+    "6a0d2b22-c92b-46ee-a0a7-ab5378dc7f3f": {
+      "slug": "the-global-protein-heist-how-wall-street-architects-engineer",
+      "hasDossier": false
+    },
+    "ep:5": {
+      "slug": "the-illusion-of-impartiality-in-frances-public-tv",
+      "hasDossier": false
+    },
+    "8b4089a3-e56e-4dc2-9206-e001554a27e4": {
+      "slug": "the-illusion-of-impartiality-in-frances-public-tv",
+      "hasDossier": false
+    },
+    "ep:6": {
+      "slug": "the-private-grift-inside-french-television",
+      "hasDossier": false
+    },
+    "3d5047ba-6ed1-4f5e-a83a-4a4388aaddb5": {
+      "slug": "the-private-grift-inside-french-television",
+      "hasDossier": false
+    },
+    "ep:7": {
+      "slug": "the-global-protein-heist-how-wall-street-architects-engineer-2",
+      "hasDossier": false
+    },
+    "64426d6a-99c2-4b1e-b45f-861c3ad17c33": {
+      "slug": "the-global-protein-heist-how-wall-street-architects-engineer-2",
+      "hasDossier": false
+    },
+    "ep:8": {
+      "slug": "the-anatomy-of-a-financial-hemorrhage",
+      "hasDossier": false
+    },
+    "a48bc8dd-987e-40b5-8af3-67ebebf72052": {
+      "slug": "the-anatomy-of-a-financial-hemorrhage",
+      "hasDossier": false
+    },
+    "ep:9": {
+      "slug": "how-europe-legally-stole-your-freedom-and-you-didnt-even-not",
+      "hasDossier": false
+    },
+    "a26a50dc-9929-4982-8032-ae0e20b4f9e5": {
+      "slug": "how-europe-legally-stole-your-freedom-and-you-didnt-even-not",
+      "hasDossier": false
+    },
+    "ep:10": {
+      "slug": "the-forensic-autopsy-of-the-covid-mandates-how-federal-agenc",
+      "hasDossier": false
+    },
+    "2bd362fa-6bb5-4a79-96d1-228ea2083b29": {
+      "slug": "the-forensic-autopsy-of-the-covid-mandates-how-federal-agenc",
+      "hasDossier": false
+    },
     "ep:11": {
       "slug": "visa-mafia",
       "hasDossier": true
@@ -26,6 +90,70 @@
     "f9435c4a-f9c1-438e-b574-f681e89cd3b8": {
       "slug": "visa-mafia",
       "hasDossier": true
+    },
+    "ep:12": {
+      "slug": "trip-com-exposed-the-dark-truth-behind-your-hotel-booking",
+      "hasDossier": false
+    },
+    "f022a1c3-cc98-4623-b075-3747a4a8b062": {
+      "slug": "trip-com-exposed-the-dark-truth-behind-your-hotel-booking",
+      "hasDossier": false
+    },
+    "ep:13": {
+      "slug": "the-xiaomi-illusion-how-europes-favorite-budget-brand-is-sca",
+      "hasDossier": false
+    },
+    "6b8c6840-dbd9-4a4c-9176-b17b463eefcc": {
+      "slug": "the-xiaomi-illusion-how-europes-favorite-budget-brand-is-sca",
+      "hasDossier": false
+    },
+    "ep:14": {
+      "slug": "xiaomis-dirty-secret-how-they-trap-you-with-fake-discounts-s",
+      "hasDossier": false
+    },
+    "bfb85a73-824d-4534-bbc9-2a2697f118dc": {
+      "slug": "xiaomis-dirty-secret-how-they-trap-you-with-fake-discounts-s",
+      "hasDossier": false
+    },
+    "ep:15": {
+      "slug": "the-ratchet-how-europe-used-crises-to-bury-democracy",
+      "hasDossier": false
+    },
+    "e2a5c0ea-79e3-4f81-be67-be32ad3e0ed3": {
+      "slug": "the-ratchet-how-europe-used-crises-to-bury-democracy",
+      "hasDossier": false
+    },
+    "ep:16": {
+      "slug": "the-republic-inc-a-factual-expos-on-power-justice-and-impuni",
+      "hasDossier": false
+    },
+    "a0c13ea9-1866-45fb-806a-aeb3523f4ad9": {
+      "slug": "the-republic-inc-a-factual-expos-on-power-justice-and-impuni",
+      "hasDossier": false
+    },
+    "ep:17": {
+      "slug": "the-architecture-of-evasion-auditing-agodas-legal-and-financ",
+      "hasDossier": false
+    },
+    "7ceb746a-d2ca-4a09-a407-ea757926a1c7": {
+      "slug": "the-architecture-of-evasion-auditing-agodas-legal-and-financ",
+      "hasDossier": false
+    },
+    "ep:18": {
+      "slug": "covid-cover-up-the-collapse-of-medical-trust",
+      "hasDossier": false
+    },
+    "6513c111-445c-4a7d-8410-d46aaacc96d2": {
+      "slug": "covid-cover-up-the-collapse-of-medical-trust",
+      "hasDossier": false
+    },
+    "ep:19": {
+      "slug": "no-body-no-weapon-the-conviction-of-cdric-jubillar",
+      "hasDossier": false
+    },
+    "5cc8a280-c631-44b2-a72c-4dbdfbca67fe": {
+      "slug": "no-body-no-weapon-the-conviction-of-cdric-jubillar",
+      "hasDossier": false
     }
   }
 }

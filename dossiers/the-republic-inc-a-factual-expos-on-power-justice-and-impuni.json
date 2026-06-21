@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "slug": "the-republic-inc-a-factual-expos-on-power-justice-and-impuni",
+  "title": "The Republic, Inc.: A Factual Exposé on Power, Justice, and Impunity in France",
+  "subtitle": "France is a nation built on the principles of equality before the law, independent justice, and the separation of powers.",
+  "publishedAt": "2026-03-26",
+  "article": {
+    "format": "markdown",
+    "body": "<!-- dossier-scaffold: replace TODO sections, then set \"draft\": false in meta.json -->\r\n\r\n## Executive summary\r\n\r\nTODO: One-paragraph overview of **The Republic, Inc.: A Factual Exposé on Power, Justice, and Impunity in France**.\r\n\r\n## What we investigated\r\n\r\n- TODO: Core question this episode answers\r\n- TODO: Institution, company, or policy under scrutiny\r\n- TODO: What public records or testimony were examined\r\n\r\n## Key findings\r\n\r\n1. **TODO.** Supporting detail with a specific fact or figure.\r\n2. **TODO.** Supporting detail — who benefited, who paid the cost.\r\n3. **TODO.** Supporting detail — what regulators or courts did (or failed to do).\r\n\r\n## Why this matters\r\n\r\nTODO: Why the listener should care beyond the headline.\r\n\r\n## Method note\r\n\r\nThis dossier accompanies **EP. 16** (*The Republic, Inc.: A Factual Exposé on Power, Justice, and Impunity in France*). Replace every placeholder URL in `evidence.json` before setting `\"draft\": false` in `meta.json`.\r\n\r\n---\r\n\r\n### Episode brief (from Spotify RSS — delete this section when done)\r\n\r\nFrance is a nation built on the principles of equality before the law, independent justice, and the separation of powers. The Constitution promises it. The rhetoric of every president reaffirms it. But a review of documented legal proceedings, official directives, and verifiable financial connections reveals a parallel architecture—one where the interests of political and judicial elites consistently override the public good, and where the mechanisms of accountability function differently depending on who is standing before them.\r\nThis is not a political polemic. It is a factual examination of three documented cases spanning the past decade. Each case is anchored in public records, court documents, and official communications. Together, they illustrate a systemic pattern: the capture of state power for private benefit, the weaponization of justice against citizens, and the structural impunity enjoyed by those at the highest levels of government.\r\n1. Asset Sell-Offs and Campaign Ties – The Alstom Affair\r\nIn 2014, the sale of Alstom's strategic energy division to General Electric was completed under circumstances that have drawn sustained scrutiny. At the time, Emmanuel Macron served as"
+  },
+  "evidence": [
+    {
+      "id": "ev-the-republic-inc-a-factual-expos-on-power-justice-and-impuni-1",
+      "type": "document",
+      "title": "TODO: Primary source document",
+      "description": "Official report, filing, or court record cited in: The Republic, Inc.: A Factual Exposé on Power, Justice, and Impunity in France",
+      "url": "https://REPLACE_WITH_PRIMARY_SOURCE_URL",
+      "source": "TODO: Publisher / agency name",
+      "date": "2026-03-26",
+      "tags": [
+        "primary-source",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-republic-inc-a-factual-expos-on-power-justice-and-impuni-2",
+      "type": "link",
+      "title": "TODO: Reference article or database",
+      "description": "Background context, regulator page, or investigative report",
+      "url": "https://REPLACE_WITH_REFERENCE_URL",
+      "source": "TODO",
+      "tags": [
+        "reference",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-republic-inc-a-factual-expos-on-power-justice-and-impuni-3",
+      "type": "image",
+      "title": "TODO: Chart, timeline, or diagram",
+      "description": "Visual used in the episode or supporting your key finding",
+      "url": "https://REPLACE_WITH_IMAGE_URL",
+      "thumbnail": "https://REPLACE_WITH_THUMBNAIL_URL",
+      "tags": [
+        "analysis",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-republic-inc-a-factual-expos-on-power-justice-and-impuni-4",
+      "type": "link",
+      "title": "TODO: On-air source or press coverage",
+      "description": "News item, press release, or transcript referenced on-air",
+      "url": "https://REPLACE_WITH_PRESS_URL",
+      "source": "TODO",
+      "tags": [
+        "press",
+        "todo"
+      ]
+    }
+  ]
+}

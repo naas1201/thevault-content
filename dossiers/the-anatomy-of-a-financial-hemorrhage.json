@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "slug": "the-anatomy-of-a-financial-hemorrhage",
+  "title": "The Anatomy of a Financial Hemorrhage",
+  "subtitle": "(Video)\nFour billion euros of public money vanishes every year into a black box — yet France’s official books claim perfect financial health",
+  "publishedAt": "2026-05-16",
+  "article": {
+    "format": "markdown",
+    "body": "<!-- dossier-scaffold: replace TODO sections, then set \"draft\": false in meta.json -->\r\n\r\n## Executive summary\r\n\r\nTODO: One-paragraph overview of **The Anatomy of a Financial Hemorrhage**.\r\n\r\n## What we investigated\r\n\r\n- TODO: Core question this episode answers\r\n- TODO: Institution, company, or policy under scrutiny\r\n- TODO: What public records or testimony were examined\r\n\r\n## Key findings\r\n\r\n1. **TODO.** Supporting detail with a specific fact or figure.\r\n2. **TODO.** Supporting detail — who benefited, who paid the cost.\r\n3. **TODO.** Supporting detail — what regulators or courts did (or failed to do).\r\n\r\n## Why this matters\r\n\r\nTODO: Why the listener should care beyond the headline.\r\n\r\n## Method note\r\n\r\nThis dossier accompanies **EP. 08** (*The Anatomy of a Financial Hemorrhage*). Replace every placeholder URL in `evidence.json` before setting `\"draft\": false` in `meta.json`.\r\n\r\n---\r\n\r\n### Episode brief (from Spotify RSS — delete this section when done)\r\n\r\n(Video)\r\nFour billion euros of public money vanishes every year into a black box — yet France’s official books claim perfect financial health.\r\nIn this dark investigative whiteboard exposé, we perform a forensic premortem on the financial architecture of the French public broadcasting system. We expose the accounting tricks that have hidden an €81 million structural deficit since 2017, while €4 billion in annual taxpayer money quietly flows into a private oligopoly.\r\nFollow the red thread from captive public funding straight to the biggest winners: Mediawan and Banijay, who have captured hundreds of millions in guaranteed production contracts with virtually zero competitive risk.\r\nWe reveal the physical proof of excess — the secret internal “barter” system that trades public advertising space for luxury suites at the Majestic Hotel during the Cannes Film Festival.\r\nIs the success of these private super-producers really the result of genius… or simply the massive luck of state-guaranteed funding and zero downside?\r\nThis is the anatomy of a financial hemorrhage — and it’s time we looked inside the wound."
+  },
+  "evidence": [
+    {
+      "id": "ev-the-anatomy-of-a-financial-hemorrhage-1",
+      "type": "document",
+      "title": "TODO: Primary source document",
+      "description": "Official report, filing, or court record cited in: The Anatomy of a Financial Hemorrhage",
+      "url": "https://REPLACE_WITH_PRIMARY_SOURCE_URL",
+      "source": "TODO: Publisher / agency name",
+      "date": "2026-05-16",
+      "tags": [
+        "primary-source",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-anatomy-of-a-financial-hemorrhage-2",
+      "type": "link",
+      "title": "TODO: Reference article or database",
+      "description": "Background context, regulator page, or investigative report",
+      "url": "https://REPLACE_WITH_REFERENCE_URL",
+      "source": "TODO",
+      "tags": [
+        "reference",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-anatomy-of-a-financial-hemorrhage-3",
+      "type": "image",
+      "title": "TODO: Chart, timeline, or diagram",
+      "description": "Visual used in the episode or supporting your key finding",
+      "url": "https://REPLACE_WITH_IMAGE_URL",
+      "thumbnail": "https://REPLACE_WITH_THUMBNAIL_URL",
+      "tags": [
+        "analysis",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-anatomy-of-a-financial-hemorrhage-4",
+      "type": "link",
+      "title": "TODO: On-air source or press coverage",
+      "description": "News item, press release, or transcript referenced on-air",
+      "url": "https://REPLACE_WITH_PRESS_URL",
+      "source": "TODO",
+      "tags": [
+        "press",
+        "todo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "slug": "the-private-grift-inside-french-television",
+  "title": "The Private Grift Inside French Television",
+  "subtitle": "🔍 THE BOARDROOM AUTOPSY: Exposing the Host-Producer Grift in French Public Television\n\nTo find the real power brokers in French public tele",
+  "publishedAt": "2026-05-22",
+  "article": {
+    "format": "markdown",
+    "body": "<!-- dossier-scaffold: replace TODO sections, then set \"draft\": false in meta.json -->\r\n\r\n## Executive summary\r\n\r\nTODO: One-paragraph overview of **The Private Grift Inside French Television**.\r\n\r\n## What we investigated\r\n\r\n- TODO: Core question this episode answers\r\n- TODO: Institution, company, or policy under scrutiny\r\n- TODO: What public records or testimony were examined\r\n\r\n## Key findings\r\n\r\n1. **TODO.** Supporting detail with a specific fact or figure.\r\n2. **TODO.** Supporting detail — who benefited, who paid the cost.\r\n3. **TODO.** Supporting detail — what regulators or courts did (or failed to do).\r\n\r\n## Why this matters\r\n\r\nTODO: Why the listener should care beyond the headline.\r\n\r\n## Method note\r\n\r\nThis dossier accompanies **EP. 06** (*The Private Grift Inside French Television*). Replace every placeholder URL in `evidence.json` before setting `\"draft\": false` in `meta.json`.\r\n\r\n---\r\n\r\n### Episode brief (from Spotify RSS — delete this section when done)\r\n\r\n🔍 THE BOARDROOM AUTOPSY: Exposing the Host-Producer Grift in French Public Television\r\n\r\nTo find the real power brokers in French public television, do not look at the politicians on screen — look at the contracts hidden in the data room. The gap between the public mandate and the private invoice is exactly where the crime occurs.\r\n\r\nIn this explosive investigation, we perform a forensic autopsy on the “animateur-producteur” grift: the system where television hosts sell their own shows back to their own public networks, extracting staggering profit margins of up to 70%. \r\n\r\nWe trace the money, follow the paper trail, and expose the revolving door between public executives and private production firms — the same executives who approve the contracts… then immediately join the companies that win them.\r\n\r\nMost shocking of all: just TWO private societies now control 80% of public debate and opinion shows on France 5. \r\n\r\nUsing a gritty retro-print noir aesthetic, we dissect contracts, whistleblower testimonies, and corporate org charts to reveal the hidden boardroom connections that shape what the French public sees — and doesn’t see.\r\n\r\nIf you’ve ever wondered why certain voices dominate public t"
+  },
+  "evidence": [
+    {
+      "id": "ev-the-private-grift-inside-french-television-1",
+      "type": "document",
+      "title": "TODO: Primary source document",
+      "description": "Official report, filing, or court record cited in: The Private Grift Inside French Television",
+      "url": "https://REPLACE_WITH_PRIMARY_SOURCE_URL",
+      "source": "TODO: Publisher / agency name",
+      "date": "2026-05-22",
+      "tags": [
+        "primary-source",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-private-grift-inside-french-television-2",
+      "type": "link",
+      "title": "TODO: Reference article or database",
+      "description": "Background context, regulator page, or investigative report",
+      "url": "https://REPLACE_WITH_REFERENCE_URL",
+      "source": "TODO",
+      "tags": [
+        "reference",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-private-grift-inside-french-television-3",
+      "type": "image",
+      "title": "TODO: Chart, timeline, or diagram",
+      "description": "Visual used in the episode or supporting your key finding",
+      "url": "https://REPLACE_WITH_IMAGE_URL",
+      "thumbnail": "https://REPLACE_WITH_THUMBNAIL_URL",
+      "tags": [
+        "analysis",
+        "todo"
+      ]
+    },
+    {
+      "id": "ev-the-private-grift-inside-french-television-4",
+      "type": "link",
+      "title": "TODO: On-air source or press coverage",
+      "description": "News item, press release, or transcript referenced on-air",
+      "url": "https://REPLACE_WITH_PRESS_URL",
+      "source": "TODO",
+      "tags": [
+        "press",
+        "todo"
+      ]
+    }
+  ]
+}
