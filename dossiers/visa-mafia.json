@@ -16,7 +16,9 @@
       "description": "Official contractor portal — compare public claims vs. user-reported constraints.",
       "url": "https://www.tlscontact.com",
       "source": "TLScontact",
-      "tags": ["reference"]
+      "tags": [
+        "reference"
+      ]
     },
     {
       "id": "ev-vm-2",
@@ -25,7 +27,9 @@
       "description": "Second major visa outsourcing operator — parallel business model.",
       "url": "https://www.vfsglobal.com",
       "source": "VFS Global",
-      "tags": ["reference"]
+      "tags": [
+        "reference"
+      ]
     },
     {
       "id": "ev-vm-3",
@@ -34,7 +38,10 @@
       "description": "Legal framework governing visa issuance — baseline for accountability questions.",
       "url": "https://www.example.com/placeholder-schengen-code.pdf",
       "source": "EU law summary",
-      "tags": ["primary-source", "legal"]
+      "tags": [
+        "primary-source",
+        "legal"
+      ]
     },
     {
       "id": "ev-vm-4",
@@ -42,7 +49,9 @@
       "title": "Abuja raid — press coverage collage",
       "description": "Placeholder for press imagery / screenshots referenced on-air.",
       "url": "https://via.placeholder.com/800x450/1e2630/5fcde4?text=Abuja+Raid+Coverage",
-      "tags": ["press"]
+      "tags": [
+        "press"
+      ]
     }
   ]
 }

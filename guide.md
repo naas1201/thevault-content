@@ -6,12 +6,57 @@ You do **not** need to ship a new app build to publish dossier content. Changes 
 
 ---
 
+## Automated workflow (preferred)
+
+**The human only authors content.** RSS GUIDs, `manifest.json`, and `dossiers/*.json` are generated automatically.
+
+### What you edit
+
+```text
+content/{episode}-{slug}/
+  article.md      ← investigation article (markdown)
+  evidence.json   ← array of sources/links
+  meta.json       ← optional: title, subtitle, publishedAt, draft
+```
+
+Example: `content/11-visa-mafia/`
+
+### What runs automatically
+
+1. **`scripts/build.mjs`** fetches the Spotify/Anchor RSS feed (`build.config.json` → `rssUrl`)
+2. Maps **episode number → RSS `<guid>`** (same order as the Android app: newest episode = 1)
+3. Writes `dossiers/{slug}.json` and regenerates `manifest.json`
+4. **GitHub Action** (`.github/workflows/build-dossiers.yml`) runs on every push to `content/**` and commits the generated files
+
+### AI checklist — add a dossier
+
+- [ ] Copy `content/_template/` → `content/{N}-{slug}/`
+- [ ] Write `article.md` and `evidence.json`
+- [ ] Set `meta.json` if title/subtitle should differ from RSS (optional)
+- [ ] Use `"draft": true` in `meta.json` while work-in-progress
+- [ ] **Do not** hand-edit `manifest.json` or `dossiers/`
+- [ ] Commit + push `content/` only — CI handles the rest
+
+### Episode number
+
+Match the **EP. XX** pill in the app (newest published episode = 1). The build script prints GUID mappings when it runs.
+
+### Local build (optional)
+
+```powershell
+node scripts/build.mjs
+```
+
+---
+
 ## What this repo does
 
 | Piece | Role |
 |-------|------|
-| `manifest.json` | Tells the app which episodes have dossiers and which slug to load |
-| `dossiers/{slug}.json` | Full micro-blog page: article + evidence list |
+| `content/` | **Source of truth** — you only edit here |
+| `scripts/build.mjs` | RSS sync + JSON generator |
+| `manifest.json` | **Generated** — episode index for the app |
+| `dossiers/{slug}.json` | **Generated** — full micro-blog per episode |
 | `.nojekyll` | **Required** — without it, GitHub Pages may break raw JSON URLs |
 
 **Live base URL:** `https://naas1201.github.io/thevault-content/`
@@ -49,19 +94,14 @@ flowchart LR
 
 ---
 
-## Quick checklist — add a new dossier
+## Quick checklist — add a new dossier (manual legacy)
 
-Copy this checklist and complete every step:
+> **Use the automated workflow above instead.** This section is for debugging or emergency hand-edits only.
 
-- [ ] Pick a **kebab-case slug** (e.g. `visa-mafia`) — must match filename
-- [ ] Create `dossiers/{slug}.json` (copy an existing file as template)
-- [ ] Add episode entry to `manifest.json` → `episodes`
-- [ ] Set `"hasDossier": true` and correct `"slug"`
-- [ ] Bump `updatedAt` in manifest (ISO 8601, e.g. `2026-06-21T12:00:00Z`)
-- [ ] Validate JSON (no trailing commas, valid UTF-8)
-- [ ] Commit and push to `main`
+- [ ] Pick a **kebab-case slug** (e.g. `visa-mafia`)
+- [ ] Create `content/{ep}-{slug}/` with `article.md` + `evidence.json`
+- [ ] Run `node scripts/build.mjs` or push and let GitHub Actions rebuild
 - [ ] Verify URLs return JSON (not HTML 404)
-- [ ] Confirm slug in manifest matches filename: `dossiers/{slug}.json`
 
 ---
 
@@ -367,13 +407,12 @@ Implementation lives in the **TheVault** repo, not here. Relevant paths:
 
 When a user asks you to “add a dossier for episode X”:
 
-1. Read this guide and copy an existing dossier as a template
-2. Resolve episode ID from RSS (`<guid>`) or use `ep:X`
-3. Write `dossiers/{slug}.json` with real content and URLs
-4. Update `manifest.json` (`episodes`, `updatedAt`)
-5. Validate JSON, commit, push to `main`
-6. Verify both manifest and dossier URLs return HTTP 200
-7. Tell the user which episode will show the DOSSIER badge and that no app rebuild is required
+1. Read this guide and copy `content/_template/` to `content/{X}-{slug}/`
+2. Write `article.md` and `evidence.json` — **do not** hand-build `manifest.json`
+3. Optionally set `meta.json` (title override, `draft: true` while WIP)
+4. Commit and push `content/` — GitHub Actions runs `scripts/build.mjs`
+5. Verify manifest + dossier URLs return HTTP 200 after CI completes
+6. Tell the user which EP number will show the DOSSIER badge; no app rebuild required
 
 When a user asks to “fix dossier not showing”:
 

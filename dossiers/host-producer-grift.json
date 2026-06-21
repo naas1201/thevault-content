@@ -16,7 +16,9 @@
       "description": "Illustrative fee breakdown showing production margin line items.",
       "url": "https://www.example.com/placeholder-production-contract.pdf",
       "source": "Industry template",
-      "tags": ["reference"]
+      "tags": [
+        "reference"
+      ]
     },
     {
       "id": "ev-hpg-2",
@@ -25,7 +27,9 @@
       "description": "Starting point for French audiovisual regulatory filings.",
       "url": "https://www.csa.fr",
       "source": "ARCOM (formerly CSA)",
-      "tags": ["reference"]
+      "tags": [
+        "reference"
+      ]
     },
     {
       "id": "ev-hpg-3",
@@ -33,7 +37,9 @@
       "title": "Supplier concentration chart",
       "description": "Share of debate slots by production entity (episode research snapshot).",
       "url": "https://via.placeholder.com/800x450/1e2630/e8b84a?text=Supplier+Concentration",
-      "tags": ["analysis"]
+      "tags": [
+        "analysis"
+      ]
     }
   ]
 }

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ev-1",
+    "type": "link",
+    "title": "Primary source title",
+    "description": "Why this source matters",
+    "url": "https://example.org/source",
+    "source": "Publisher name",
+    "date": "2026-01-01",
+    "tags": ["primary-source"]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ev-fpn-1",
+    "type": "document",
+    "title": "Public broadcaster annual report (excerpt)",
+    "description": "Budget allocation and editorial independence statement — compare stated mission vs. commissioning tables.",
+    "url": "https://www.example.com/placeholder-annual-report.pdf",
+    "source": "Official publication",
+    "date": "2024-01-15",
+    "tags": ["primary-source", "budget"]
+  },
+  {
+    "id": "ev-fpn-2",
+    "type": "link",
+    "title": "EU audiovisual policy framework",
+    "description": "Regulatory context for public service media obligations in member states.",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/audiovisual",
+    "source": "European Commission",
+    "tags": ["reference"]
+  },
+  {
+    "id": "ev-fpn-3",
+    "type": "image",
+    "title": "Commissioning flow diagram",
+    "description": "Simplified map of how debate shows move from production company to broadcast slot.",
+    "url": "https://via.placeholder.com/800x450/1e2630/3d9be9?text=Commissioning+Flow",
+    "thumbnail": "https://via.placeholder.com/320x180/1e2630/3d9be9?text=Diagram",
+    "tags": ["analysis"]
+  }
+]

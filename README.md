@@ -62,31 +62,21 @@ Search/replace **`naas1201`** in:
 
 Commit and push again.
 
-## Add a new episode dossier
+## Add a new episode dossier (automated)
 
-1. Create `dossiers/my-new-slug.json` (copy an existing file as template)
-2. Add to `manifest.json` → `episodes`:
+You only edit **`content/`**. RSS GUIDs and `manifest.json` are generated for you.
 
-```json
-"RSS_GUID_FROM_ANCHOR": {
-  "slug": "my-new-slug",
-  "hasDossier": true
-}
+1. Copy `content/_template/` → `content/12-my-slug/` (use the **EP. number** from the app)
+2. Write `article.md` and `evidence.json`
+3. Push to `main` — GitHub Actions rebuilds `dossiers/` + `manifest.json`
+
+```powershell
+git add content/12-my-slug/
+git commit -m "Add dossier: my-slug"
+git push
 ```
 
-Or use episode number shorthand:
-
-```json
-"ep:12": {
-  "slug": "my-new-slug",
-  "hasDossier": true
-}
-```
-
-3. Bump `updatedAt` in manifest
-4. `git add . && git commit -m "Add dossier: my-new-slug" && git push`
-
-The app will pick it up on next refresh (once integrated).
+See `content/README.md` and `guide.md` for full details.
 
 ## Episode IDs for The Vault (Anchor RSS)
 
