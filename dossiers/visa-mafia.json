@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "slug": "visa-mafia",
+  "title": "The Visa Mafia: TLScontact & VFS Global",
+  "subtitle": "Nigeria raid, passport leverage, and the business of Schengen access",
+  "publishedAt": "2026-04-14",
+  "article": {
+    "format": "markdown",
+    "body": "## Trigger event\n\nIn **Abuja, Nigeria**, inspectors raided a TLScontact office — one of the private contractors that process Schengen visa applications on behalf of European consulates. The episode connects that event to a broader pattern: **outsourced sovereignty**, where access to European territory is gated by profit-making intermediaries with weak transparency.\n\n## The business model\n\n1. Applicant pays service fee to contractor (often mandatory \"premium\" tiers)\n2. Contractor controls appointment inventory\n3. Passport often held during processing — **leverage point**\n4. Complaints routed through contractor helpdesk, not consulate\n\n## Documented pain points (cross-jurisdiction)\n\n- Appointment scarcity engineered into upsell pathways\n- Opaque refund rules on \"value-added\" services\n- Data processing agreements that bundle unrelated marketing consent\n- Asymmetric power: applicant cannot opt out of intermediary while using consular route\n\n## Why \"mafia\" is not hyperbole\n\nThe term in the episode is rhetorical but structurally pointed: a closed system, territorial control of a required chokepoint, and financial extraction from people with no alternative provider.\n\n## Policy angle\n\nIf visa processing is an extension of border policy, outsourcing it without **hard service-level enforcement** exports corruption risk into the Schengen brand itself.\n\n## Next steps for researchers\n\n- Compare fee schedules across EU member states for same contractor\n- FOI / equivalent requests on complaint resolution times\n- Map passport custody policies by country desk"
+  },
+  "evidence": [
+    {
+      "id": "ev-vm-1",
+      "type": "link",
+      "title": "TLScontact corporate site",
+      "description": "Official contractor portal — compare public claims vs. user-reported constraints.",
+      "url": "https://www.tlscontact.com",
+      "source": "TLScontact",
+      "tags": ["reference"]
+    },
+    {
+      "id": "ev-vm-2",
+      "type": "link",
+      "title": "VFS Global",
+      "description": "Second major visa outsourcing operator — parallel business model.",
+      "url": "https://www.vfsglobal.com",
+      "source": "VFS Global",
+      "tags": ["reference"]
+    },
+    {
+      "id": "ev-vm-3",
+      "type": "document",
+      "title": "Schengen visa code (overview)",
+      "description": "Legal framework governing visa issuance — baseline for accountability questions.",
+      "url": "https://www.example.com/placeholder-schengen-code.pdf",
+      "source": "EU law summary",
+      "tags": ["primary-source", "legal"]
+    },
+    {
+      "id": "ev-vm-4",
+      "type": "image",
+      "title": "Abuja raid — press coverage collage",
+      "description": "Placeholder for press imagery / screenshots referenced on-air.",
+      "url": "https://via.placeholder.com/800x450/1e2630/5fcde4?text=Abuja+Raid+Coverage",
+      "tags": ["press"]
+    }
+  ]
+}

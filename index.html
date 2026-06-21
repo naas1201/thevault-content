@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Vault — Investigation Dossiers</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #141820;
+        --surface: #1e2630;
+        --text: #eef4fa;
+        --muted: #9eb0c4;
+        --accent: #3d9be9;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+        padding: 24px;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 1.4rem;
+        letter-spacing: 0.08em;
+      }
+      p {
+        color: var(--muted);
+      }
+      code,
+      a {
+        color: var(--accent);
+      }
+      ul {
+        padding-left: 1.2rem;
+      }
+      li {
+        margin: 0.4rem 0;
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid rgba(61, 155, 233, 0.2);
+        border-radius: 8px;
+        padding: 16px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>THE VAULT — DOSSIER CDN</h1>
+      <p>
+        Static content API for <strong>The Vault</strong> Android app. Humans
+        rarely land here; the app fetches JSON below.
+      </p>
+
+      <div class="card">
+        <strong>Endpoints</strong>
+        <ul>
+          <li><a href="manifest.json">manifest.json</a> — episode index</li>
+          <li>
+            <a href="dossiers/french-public-neutrality.json"
+              >dossiers/french-public-neutrality.json</a
+            >
+          </li>
+          <li>
+            <a href="dossiers/host-producer-grift.json"
+              >dossiers/host-producer-grift.json</a
+            >
+          </li>
+          <li>
+            <a href="dossiers/visa-mafia.json">dossiers/visa-mafia.json</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <strong>App parameters (after GitHub Pages is live)</strong>
+        <pre><code>contentManifestUrl: https://naas1201.github.io/thevault-content/manifest.json
+contentBaseUrl:   https://naas1201.github.io/thevault-content/dossiers/</code></pre>
+      </div>
+    </main>
+  </body>
+</html>

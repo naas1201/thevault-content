@@ -1,0 +1,5 @@
+{
+  "_comment": "Paste these two lines into app/src/main/assets/config.json",
+  "contentManifestUrl": "https://naas1201.github.io/thevault-content/manifest.json",
+  "contentBaseUrl": "https://naas1201.github.io/thevault-content/dossiers/"
+}

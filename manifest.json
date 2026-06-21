@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-21T00:00:00Z",
+  "contentBaseUrl": "https://naas1201.github.io/thevault-content/dossiers/",
+  "episodes": {
+    "96ff1e45-1672-4570-b6c4-2fb6b5b76cab": {
+      "slug": "french-public-neutrality",
+      "hasDossier": true
+    },
+    "0dfe1ac1-e6eb-4af8-8b6a-08d76df59f70": {
+      "slug": "host-producer-grift",
+      "hasDossier": true
+    },
+    "f9435c4a-f9c1-438e-b574-f681e89cd3b8": {
+      "slug": "visa-mafia",
+      "hasDossier": true
+    },
+    "ep:1": {
+      "slug": "france-media-shell-game",
+      "hasDossier": false
+    },
+    "ep:2": {
+      "slug": "french-public-neutrality",
+      "hasDossier": true
+    },
+    "ep:3": {
+      "slug": "host-producer-grift",
+      "hasDossier": true
+    },
+    "ep:11": {
+      "slug": "visa-mafia",
+      "hasDossier": true
+    }
+  }
+}

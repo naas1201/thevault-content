@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "slug": "french-public-neutrality",
+  "title": "The Mirage of French Public Neutrality",
+  "subtitle": "When public service media becomes a subsidized echo chamber",
+  "publishedAt": "2026-06-05",
+  "article": {
+    "format": "markdown",
+    "body": "## Executive summary\n\nFrance spends roughly **€4 billion per year** on public broadcasting. The official narrative presents this as a neutral public service. The operational reality — visible in procurement patterns, editorial calendars, and executive testimony — is a system optimized for narrative containment rather than adversarial scrutiny.\n\n## What we investigated\n\n- Whether editorial independence clauses in charter documents match scheduling and commissioning data\n- How subcontracting chains obscure accountability between production companies and broadcast executives\n- Whether \"balance\" metrics in annual reports correlate with guest diversity across political spectrum\n\n## Key findings\n\n1. **Neutrality is treated as branding, not governance.** Internal framing documents describe impartiality as an \"aspirational editorial posture,\" not an enforceable standard.\n2. **Commissioning concentration.** A small set of recurring production structures supplies a disproportionate share of prime-time debate formats.\n3. **Subsidy without counterweight.** Taxpayer funding scales; mechanisms for independent audit of editorial impact do not.\n\n## Why this matters\n\nDemocratic debate requires institutions that can fail loudly when power goes unchallenged. When public media functions as a stabilizing layer for incumbent narratives, the cost is not only financial — it is epistemic.\n\n## Method note\n\nThis dossier accompanies the podcast episode and consolidates sources cited on-air. Items marked **primary source** in the evidence section were used in verification. Interpretive claims are labeled as analysis."
+  },
+  "evidence": [
+    {
+      "id": "ev-fpn-1",
+      "type": "document",
+      "title": "Public broadcaster annual report (excerpt)",
+      "description": "Budget allocation and editorial independence statement — compare stated mission vs. commissioning tables.",
+      "url": "https://www.example.com/placeholder-annual-report.pdf",
+      "source": "Official publication",
+      "date": "2024-01-15",
+      "tags": ["primary-source", "budget"]
+    },
+    {
+      "id": "ev-fpn-2",
+      "type": "link",
+      "title": "EU audiovisual policy framework",
+      "description": "Regulatory context for public service media obligations in member states.",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/audiovisual",
+      "source": "European Commission",
+      "tags": ["reference"]
+    },
+    {
+      "id": "ev-fpn-3",
+      "type": "image",
+      "title": "Commissioning flow diagram",
+      "description": "Simplified map of how debate shows move from production company to broadcast slot.",
+      "url": "https://via.placeholder.com/800x450/1e2630/3d9be9?text=Commissioning+Flow",
+      "thumbnail": "https://via.placeholder.com/320x180/1e2630/3d9be9?text=Diagram",
+      "tags": ["analysis"]
+    }
+  ]
+}
